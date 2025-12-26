@@ -1,0 +1,16 @@
+$ touch write.txt
+
+$ echo "Hello, this is my first DevOps note" > write.txt
+
+$ cat write.txt
+Hello, this is my first DevOps note
+$ mv write.txt notes.txt
+
+$ cat notes.txt
+Hello, this is my first DevOps note
+$ echo "this is my first devvops project. and i m enjoying it" > notes.txt
+
+$ cat notes.txt
+this is my first devvops project. and i m enjoying it
+$ 
+
