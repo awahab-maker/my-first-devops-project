@@ -1,0 +1,26 @@
+$ touch write.txt
+
+$ echo "this is my first devops project" > write.txt
+
+$ cat write.txt
+this is my first devops project
+$ mv write.txt notes.txt
+
+$ echo "this is my first devops project and i am enjoying it" > notes.txt
+
+$ cat notes.txt
+this is my first devops project and i am enjoying it
+$ ls
+notes.txt
+$ echo "Day 5 Notes:
+- EC2 = virtual server (first instance launched)
+- S3 = cloud storage (first bucket created)" > notes.txt
+$ echo "Day 5 Notes:
+$ > 
+$ > - EC2 = virtual server (first instance launched)
+$ > 
+$ > - S3 = cloud storage (first bucket created)" > notes.txt
+$ cat notes.txt
+Day 5 Notes:
+$ - EC2 = virtual server (first instance launched)
+$ - S3 = cloud storage (first bucket created)
